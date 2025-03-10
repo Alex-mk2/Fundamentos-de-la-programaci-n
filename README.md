@@ -1,2 +1,2 @@
-# Fundamentos-de-la-programaci-n
+# Fundamentos-de-la-programación
 Clases fundamentos de computación y ejercicios
