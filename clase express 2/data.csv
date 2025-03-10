@@ -1,0 +1,9 @@
+id,nombre,apellido,activo,company,mail,latitud,longitud,fecha_entrega,ultima_entrega,cantidad,monto
+CHL,Juan,Perez,True,Compania CHL,juan@chl.com,-33.4489,-70.6693,2024/05/25,2024/04/20,10,1000
+ARG,Maria,Gomez,False,Compania ARG,maria@arg.com,-34.6037,-58.3816,2024/06/30,2024/05/15,15,1500
+BRA,Carlos,Silva,True,Compania BRA,carlos@bra.com,-15.7939,-47.8828,2024/07/15,2024/06/10,20,2000
+USA,Emily,Smith,True,Compania USA,emily@usa.com,37.7749,-122.4194,2024/08/01,2024/07/30,25,2500
+CHL,Pedro,Lopez,True,Compania CHL,pedro@chl.com,-33.4489,-70.6693,2024/09/10,2024/09/12,30,3000
+PER,Lucia,Martinez,False,Compania PER,lucia@per.com,-12.0464,-77.0428,2024/05/20,2024/05/18,12,1200
+CHL,Ana,Torres,True,Compania CHL,ana@chl.com,-33.4489,-70.6693,2024/12/01,2024/11/15,18,1800
+MEX,Jose,Hernandez,True,Compania MEX,jose@mex.com,19.4326,-99.1332,2024/11/15,2024/11/10,22,2200

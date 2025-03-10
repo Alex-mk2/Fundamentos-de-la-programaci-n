@@ -1,0 +1,32 @@
+from Jojojo import leer_archivo
+
+# Leer los archivos de datos
+lista_datos = leer_archivo("bondad.txt")
+lista_pedidos = leer_archivo("pedidos.txt")
+
+# Convertir las listas a cadenas de texto y luego de nuevo a listas de strings
+lista_datos = ",".join(lista_datos).split(",")
+lista_pedidos = ",".join(lista_pedidos).split(",")
+
+# Definir la función para calcular la suma y luego el promedio
+def sumar(lista_notas):
+    suma = 0
+    for nota in lista_notas:
+        suma += int(nota)  # Convertir cada nota a entero y sumarla
+    return suma / len(lista_notas) if lista_notas else 0
+
+# Procesar todos los niños en la lista de datos
+num_niños = len(lista_datos) // 13  # Asumiendo que cada niño tiene 12 notas y 1 nombre
+
+for i in range(num_niños):
+    # Extraer el nombre del niño
+    nombre = lista_datos[i * 13]
+    
+    # Extraer las 12 notas del niño
+    lista_notas = lista_datos[i * 13 + 1:i * 13 + 13]
+    
+    # Calcular el promedio de las notas
+    promedio = sumar(lista_notas)
+    
+    # Imprimir el resultado
+    print(f"El promedio de {nombre} es: {promedio:.2f}")

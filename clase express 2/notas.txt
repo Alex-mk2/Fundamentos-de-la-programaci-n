@@ -1,0 +1,4 @@
+Juan Perez, Calculo, 7.0
+Maria Rodriguez,Fisica, 5.4
+Pedro Lopez,Algebra,4.5
+Ana Garcia,IDI,4.2
